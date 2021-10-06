@@ -22,12 +22,12 @@ const routes = [
       },
       {
         path: "user",
-        name: "User Profile",
+        name: "Perfil",
         component: UserProfile
       },
       {
         path: "table",
-        name: "Table List",
+        name: "Lista",
         component: TableList
       },
       {
@@ -42,7 +42,7 @@ const routes = [
       },
       {
         path: "maps",
-        name: "Maps",
+        name: "Mapa",
         meta: {
           hideFooter: true
         },
@@ -50,7 +50,7 @@ const routes = [
       },
       {
         path: "notifications",
-        name: "Notifications",
+        name: "Notificações",
         component: Notifications
       },
       {

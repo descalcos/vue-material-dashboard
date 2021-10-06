@@ -3,141 +3,83 @@
     <div class="md-layout">
       <div class="md-layout-item">
         <md-card>
-          <md-card-header data-background-color="green">
-            <h4 class="title">Notifications</h4>
+          <md-card-header data-background-color="blue">
+            <h4 class="title">Notificações</h4>
             <p class="category">
-              Handcrafted by us with <i class="fa fa-heart heart"></i>
+              Feito à mão por nós com <i class="fa fa-heart heart"></i>
             </p>
           </md-card-header>
           <md-card-content>
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-100">
-                <h5>Notifications Style</h5>
-                <div class="alert alert-info">
-                  <span>This is a plain notification</span>
-                </div>
-                <div class="alert alert-info">
-                  <button type="button" aria-hidden="true" class="close">
-                    ×
-                  </button>
-                  <span>This is a notification with close button.</span>
-                </div>
-                <div
+                <h5>Alertas</h5>
+ 
+                <div data-background-color="red"
                   class="alert alert-info alert-with-icon"
                   data-notify="container"
-                >
-                  <button type="button" aria-hidden="true" class="close">
-                    ×
-                  </button>
+                  >
+
                   <i data-notify="icon" class="material-icons">add_alert</i>
                   <span data-notify="message"
-                    >This is a notification with close button and icon.</span
+                    >Trocar Filtro</span
                   >
                 </div>
                 <div
                   class="alert alert-info alert-with-icon"
-                  data-notify="container"
+                  data-notify="container" div data-background-color="orange"
                 >
-                  <button type="button" aria-hidden="true" class="close">
-                    ×
-                  </button>
+
                   <i data-notify="icon" class="material-icons">add_alert</i>
                   <span data-notify="message"
-                    >This is a notification with close button and icon and have
-                    many lines. You can see that the icon and the close button
-                    are always vertically aligned. This is a beautiful
-                    notification. So you don't have to worry about the
-                    style.</span
+                    >Troca de Oleo marcado para o dia: 20/11/2021</span
                   >
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-100">
-                <h5>Notification states</h5>
-                <div class="alert alert-info">
+              <div class="md-layout-item md-medium-size-100" >
+                <h5>Boas Práticas</h5>
+                <div class="alert alert-info " data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
                   <span
-                    ><b> Info - </b> This is a regular notification made with
-                    ".alert-info"</span
+                    >Não fique sempre com o combustivél na reversa</span
                   >
                 </div>
-                <div class="alert alert-success">
+                <div class="alert alert-success" data-background-color="blue">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
                   <span
-                    ><b> Success - </b> This is a regular notification made with
-                    ".alert-success"</span
+                    >Assim que desligar o carro verifique todas luzes e aparelhos ligados</span
                   >
                 </div>
-                <div class="alert alert-warning">
+                <div class="alert alert-warning" data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
                   <span
-                    ><b> Warning - </b> This is a regular notification made with
-                    ".alert-warning"</span
+                    >Av. BR32 a 10km, liguei os faróis!</span
                   >
                 </div>
-                <div class="alert alert-danger">
+                <div class="alert alert-danger" data-background-color="blue">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
                   <span
-                    ><b> Danger - </b> This is a regular notification made with
-                    ".alert-danger"</span
+                    >Coloque sem o cinto de segurança sempre</span
                   >
                 </div>
-                <div class="alert alert-primary">
+                <div class="alert alert-primary" data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
                   <span
-                    ><b> Primary - </b> This is a regular notification made with
-                    ".alert-primary"</span
+                    >Verifique todos os retrovisores, se estão na posição correta</span
                   >
                 </div>
               </div>
 
-              <div class="md-layout-item md-size-100">
-                <div class="places-buttons text-center">
-                  <h5 class="text-center">
-                    Notifications Places
-                    <p class="category">Click to view notifications</p>
-                  </h5>
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('top', 'left')"
-                    >Top Left</md-button
-                  >
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('top', 'center')"
-                    >Top Center</md-button
-                  >
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('top', 'right')"
-                    >Top Right</md-button
-                  >
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('bottom', 'left')"
-                    >Bottom Left</md-button
-                  >
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('bottom', 'center')"
-                    >Bottom Center</md-button
-                  >
-                  <md-button
-                    class="md-primary"
-                    @click="notifyVue('bottom', 'right')"
-                    >Bottom Right</md-button
-                  >
-                </div>
-              </div>
+              
             </div>
           </md-card-content>
         </md-card>

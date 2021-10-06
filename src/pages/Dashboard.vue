@@ -11,19 +11,19 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">Semanal</h4>
             <p class="category">
               <span class="text-success"
                 ><i class="fas fa-long-arrow-alt-up"></i> 55%
               </span>
-              increase in today sales.
+              O seu tempo de uso aumentou em comparação de semana passada.
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 4 minutes ago
+              atualizado 4 minutos atrás
             </div>
           </template>
         </chart-card>
@@ -36,19 +36,19 @@
           :chart-options="emailsSubscriptionChart.options"
           :chart-responsive-options="emailsSubscriptionChart.responsiveOptions"
           :chart-type="'Bar'"
-          data-background-color="red"
+          data-background-color="blue2"
         >
           <template slot="content">
-            <h4 class="title">Email Subscription</h4>
+            <h4 class="title">Consumo de Combustível</h4>
             <p class="category">
-              Last Campaign Performance
+              Desempenho Mensal
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 10 days ago
+              atualizado 10 dias atrás
             </div>
           </template>
         </chart-card>
@@ -60,19 +60,19 @@
           :chart-data="dataCompletedTasksChart.data"
           :chart-options="dataCompletedTasksChart.options"
           :chart-type="'Line'"
-          data-background-color="green"
+          data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Completed Tasks</h4>
+            <h4 class="title">Histórico de Temperatura</h4>
             <p class="category">
-              Last Campaign Performance
+              Desempenho do dia
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              campaign sent 26 minutes ago
+              Atualizado final do dia
             </div>
           </template>
         </chart-card>
@@ -86,14 +86,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Revenue</p>
-            <h3 class="title">$34,245</h3>
+            <p class="category">Posto Próximo</p>
+            <h3 class="title">10km</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>date_range</md-icon>
-              Last 24 Hours
+              Atualizado há 5 minutos
             </div>
           </template>
         </stats-card>
@@ -107,17 +107,17 @@
           </template>
 
           <template slot="content">
-            <p class="category">Used Space</p>
-            <h3 class="title">
-              49/50
-              <small>GB</small>
-            </h3>
+            <p class="category">Troca de Oleo</p>
+            <p class="category">Marcado para:</p>
+            <h4 class="title">
+              20/11/2021
+            </h4>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon class="text-danger">warning</md-icon>
-              <a href="#pablo">Get More Space...</a>
+              <a>Cuidado</a>
             </div>
           </template>
         </stats-card>
@@ -131,14 +131,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Fixed Issues</p>
-            <h3 class="title">75</h3>
+            <p class="category">Trocar Filtro</p>
+            <h3 class="title">Urgente</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>local_offer</md-icon>
-              Tracked from Github
+              Mais rápido possível
             </div>
           </template>
         </stats-card>
@@ -148,18 +148,18 @@
       >
         <stats-card data-background-color="blue">
           <template slot="header">
-            <i class="fab fa-twitter"></i>
+            <i class="fa fa-heart heart"></i>
           </template>
 
           <template slot="content">
-            <p class="category">Folowers</p>
-            <h3 class="title">+245</h3>
+            <p class="category">Elétrica</p>
+            <h3 class="title">Ótimo</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>update</md-icon>
-              Just Updated
+              Atualizado agora
             </div>
           </template>
         </stats-card>
@@ -169,36 +169,33 @@
       >
         <md-card>
           <md-card-header data-background-color="orange">
-            <h4 class="title">Employees Stats</h4>
-            <p class="category">New employees on 15th September, 2016</p>
+            <h4 class="title">Agendamentos</h4>
+            <p class="category">Agendamentos em Mêcanicas Autorizadas</p>
           </md-card-header>
           <md-card-content>
             <ordered-table table-header-color="orange"></ordered-table>
           </md-card-content>
         </md-card>
       </div>
-      <div
-        class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-50"
-      >
+
+
+      <div class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-50">
         <nav-tabs-card>
           <template slot="content">
-            <span class="md-nav-tabs-title">Tasks:</span>
+            <span class="md-nav-tabs-title">Tarefas:</span>
             <md-tabs class="md-success" md-alignment="left">
-              <md-tab id="tab-home" md-label="Bugs" md-icon="bug_report">
+
+
+              <md-tab id="tab-pages" md-label="" md-icon="code">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-pages" md-label="Website" md-icon="code">
-                <nav-tabs-table></nav-tabs-table>
-              </md-tab>
-
-              <md-tab id="tab-posts" md-label="server" md-icon="cloud">
-                <nav-tabs-table></nav-tabs-table>
-              </md-tab>
             </md-tabs>
           </template>
         </nav-tabs-card>
       </div>
+
+
     </div>
   </div>
 </template>
@@ -224,7 +221,7 @@ export default {
     return {
       dailySalesChart: {
         data: {
-          labels: ["M", "T", "W", "T", "F", "S", "S"],
+          labels: ["S", "T", "Q", "Q", "S", "S", "D"],
           series: [[12, 17, 7, 17, 23, 18, 38]]
         },
         options: {
@@ -243,8 +240,8 @@ export default {
       },
       dataCompletedTasksChart: {
         data: {
-          labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-          series: [[230, 750, 450, 300, 280, 240, 200, 190]]
+          labels: ["07h", "08h", "13h", "14h", "15h", "16h", "17h", "18h"],
+          series: [[50, 100, 0, 0, 0, 0, 85, 70]]
         },
 
         options: {
@@ -267,17 +264,17 @@ export default {
             "Ja",
             "Fe",
             "Ma",
-            "Ap",
-            "Mai",
+            "Ab",
+            "Ma",
             "Ju",
-            "Jul",
-            "Au",
+            "Ju",
+            "Ag",
             "Se",
-            "Oc",
+            "Ou",
             "No",
             "De"
           ],
-          series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]]
+          series: [[187, 176, 120, 190, 143, 169, 145, 160, 115, 150, 180, 200]]
         },
         options: {
           axisX: {

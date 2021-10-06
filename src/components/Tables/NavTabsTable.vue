@@ -31,14 +31,14 @@ export default {
       selected: [],
       users: [
         {
-          name: 'Sign contract for "What are conference organizers afraid of?"'
+          name: 'Está colocando o cinto em todas viagens?"'
         },
         {
-          name: "Lines From Great Russian Literature? Or E-mails From My Boss?"
+          name: "Verifica se esqueceu alguma luz apaga ao sair do carro?"
         },
         {
           name:
-            "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit"
+            "Está com a revisão em dia?"
         }
       ]
     };
