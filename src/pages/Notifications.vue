@@ -69,7 +69,7 @@
                     >Coloque sem o cinto de segurança sempre</span
                   >
                 </div>
-                <div class="alert alert-primary" data-background-color="blue2">
+                <div class="alert alert-primary" data-background-color="red">
                   <button type="button" aria-hidden="true" class="close">
                     ×
                   </button>
