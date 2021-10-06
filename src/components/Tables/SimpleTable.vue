@@ -25,8 +25,8 @@ export default {
       selected: [],
       users: [
         {
-          name: "Dakota Rice",
-          salary: "$36,738",
+          name: "Ford SBC",
+          salary: "05/06/2020",
           country: "Niger",
           city: "Oud-Turnhout"
         },

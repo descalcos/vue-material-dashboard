@@ -212,15 +212,15 @@
         }
     }
 
-    [data-background-color="purple"],
+    [data-background-color="blue2"],
     .md-tabs.md-primary .md-tabs-navigation{
-        background: linear-gradient(60deg, $purple-400, $purple-600);
+        background: linear-gradient(#0c87b0);
         @include shadow-big-color($brand-primary);
     }
 
     [data-background-color="blue"],
     .md-tabs.md-info .md-tabs-navigation{
-        background: linear-gradient(60deg, $cyan-400, $cyan-600);
+        background: linear-gradient(#013179);
         @include shadow-big-color($brand-info);
     }
 

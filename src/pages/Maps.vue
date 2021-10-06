@@ -10,9 +10,9 @@ const loader = new Loader(API_KEY);
 export default {
   mounted() {
     loader.load().then(function(google) {
-      var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+      var myLatlng = new google.maps.LatLng(-23.5740805, -46.6234517);
       var mapOptions = {
-        zoom: 13,
+        zoom: 15,
         center: myLatlng,
         scrollwheel: false, // we disable de scroll over the map, it is a really annoing when you scroll through page
         styles: [
