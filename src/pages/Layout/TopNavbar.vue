@@ -39,11 +39,11 @@
                   <p class="hidden-lg hidden-md">Notifications</p>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
-                  <li><a href="#">Trocar Filtro</a></li>
+                  <li><a href="#">Aceleração</a></li>
+                  <li><a href="#">Combustível</a></li>
+                  <li><a href="#">Troca Filtro</a></li>
                   <li><a href="#">Troca de Oleo</a></li>
                   <li><a href="#">Boas Práticas</a></li>
-                  <li><a href="#">Configuração</a></li>
-                  <li><a href="#">E-mails</a></li>
                 </ul>
               </drop-down>
             </md-list-item> -->
@@ -65,11 +65,11 @@
                       <p class="hidden-lg hidden-md">Notifications</p>
                     </md-button>
                     <ul class="dropdown-menu dropdown-menu-right">
-                  <li><a href="#">Trocar Filtro</a></li>
+                  <li><a href="#">Aceleração</a></li>
+                  <li><a href="#">Combustível</a></li>
+                  <li><a href="#">Troca Filtro</a></li>
                   <li><a href="#">Troca de Oleo</a></li>
                   <li><a href="#">Boas Práticas</a></li>
-                  <li><a href="#">Configuração</a></li>
-                  <li><a href="#">E-mails</a></li>
                     </ul>
                   </drop-down>
                 </div>
