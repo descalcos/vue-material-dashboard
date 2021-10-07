@@ -131,13 +131,13 @@
           </template>
 
           <template slot="content">
-            <p class="category">Trocar Filtro</p>
-            <h3 class="title">Urgente</h3>
+            <p class="category">Você possui problemas</p>
+            <h3 class="title">Aceleração</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
-              <md-icon>local_offer</md-icon>
+              <md-icon>update</md-icon>
               Mais rápido possível
             </div>
           </template>
@@ -146,20 +146,20 @@
       <div
         class="md-layout-item md-medium-size-50 md-xsmall-size-100 md-size-25"
       >
-        <stats-card data-background-color="blue">
+        <stats-card data-background-color="red">
           <template slot="header">
-            <i class="fa fa-heart heart"></i>
+            <md-icon>info_outline</md-icon>
           </template>
 
           <template slot="content">
-            <p class="category">Elétrica</p>
-            <h3 class="title">Ótimo</h3>
+            <p class="category">Você possui problemas</p>
+            <h3 class="title">Combustível</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>update</md-icon>
-              Atualizado agora
+              Mais rápido possível
             </div>
           </template>
         </stats-card>

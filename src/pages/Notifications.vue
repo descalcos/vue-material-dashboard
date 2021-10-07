@@ -21,6 +21,26 @@
 
                   <i data-notify="icon" class="material-icons">add_alert</i>
                   <span data-notify="message"
+                    >Você possui problemas atrelados a combustível</span
+                  >
+                </div>
+                               <div data-background-color="red"
+                  class="alert alert-info alert-with-icon"
+                  data-notify="container"
+                  >
+
+                  <i data-notify="icon" class="material-icons">add_alert</i>
+                  <span data-notify="message"
+                    >Encontramos um possível problema na sua aceleração</span
+                  >
+                </div>
+                               <div data-background-color="red"
+                  class="alert alert-info alert-with-icon"
+                  data-notify="container"
+                  >
+
+                  <i data-notify="icon" class="material-icons">add_alert</i>
+                  <span data-notify="message"
                     >Trocar Filtro</span
                   >
                 </div>
