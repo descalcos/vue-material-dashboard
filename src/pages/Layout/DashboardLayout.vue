@@ -15,15 +15,15 @@
         <md-icon>person</md-icon>
         <p>Perfil</p>
       </sidebar-link>
-      <sidebar-link to="/table">
+      <sidebar-link to="/">
         <md-icon>content_paste</md-icon>
         <p>Em Desenvolvimento</p>
       </sidebar-link>
-      <sidebar-link to="/typography">
+      <sidebar-link to="/">
         <md-icon>library_books</md-icon>
         <p>Em Desenvolvimento</p>
       </sidebar-link>
-      <sidebar-link to="/icons">
+      <sidebar-link to="/">
         <md-icon>bubble_chart</md-icon>
         <p>Em Desenvolvimento</p>
       </sidebar-link>
