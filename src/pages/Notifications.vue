@@ -59,7 +59,7 @@
                 <h5>Boas Práticas</h5>
                 <div class="alert alert-info " data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
-                    ×
+                    
                   </button>
                   <span
                     >Não fique sempre com o combustivél na reversa</span
@@ -67,7 +67,7 @@
                 </div>
                 <div class="alert alert-success" data-background-color="blue">
                   <button type="button" aria-hidden="true" class="close">
-                    ×
+                    
                   </button>
                   <span
                     >Assim que desligar o carro verifique todas luzes e aparelhos ligados</span
@@ -75,7 +75,7 @@
                 </div>
                 <div class="alert alert-warning" data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
-                    ×
+                    
                   </button>
                   <span
                     >Av. BR32 a 10km, liguei os faróis!</span
@@ -83,7 +83,7 @@
                 </div>
                 <div class="alert alert-danger" data-background-color="blue">
                   <button type="button" aria-hidden="true" class="close">
-                    ×
+                    
                   </button>
                   <span
                     >Coloque sem o cinto de segurança sempre</span
@@ -91,7 +91,7 @@
                 </div>
                 <div class="alert alert-primary" data-background-color="blue2">
                   <button type="button" aria-hidden="true" class="close">
-                    ×
+                    
                   </button>
                   <span
                     >Verifique todos os retrovisores, se estão na posição correta</span

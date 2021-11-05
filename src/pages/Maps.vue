@@ -80,7 +80,7 @@ export default {
 
       var marker = new google.maps.Marker({
         position: myLatlng,
-        title: "Hello World!"
+        title: "FPS"
       });
 
       // To add the marker to the map, call setMap();
